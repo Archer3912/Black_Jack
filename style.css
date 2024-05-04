@@ -1,0 +1,41 @@
+.title {
+  text-align: center;
+  font-size: 48px;
+}
+
+#user {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: black solid 0.1rem;
+  padding: 10px;
+  height: 500px;
+}
+
+#user div {
+  text-align: center;
+  flex: 1;
+}
+
+#player-area {
+  border-right: black solid 1px ;
+}
+
+#money {
+  font-size: 30px;
+  margin: 20px;
+}
+
+#actions {
+  text-align: center;
+  padding-right: 20px;
+
+}
+
+#actions button {
+  margin-right: 20px; 
+  width: 150px; /* 設置按鈕的寬度 */
+  height: 40px; /* 設置按鈕的高度 */
+  font-size: 24px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Black Jack</title>
+  </head>
+  <body>
+    <h1 class="title">21點(Black Jack)</h1>
+    <div id="user">
+      <div id="player-area">
+        <h2 id="playerpoint">玩家(player): <span>0</span></h2>
+      </div>
+      <div id="dealer-area">
+        <h2 id="dealerpoint">莊家(dealer): <span>0</span></h2>
+      </div>
+    </div>
+    <div id="money">
+      <div id="winnings">獎金(winnings):$ <span></span></div>
+      <div id="cash">現金(cash):$ <span></span></div>
+    </div>
+    <div id="actions">
+      <button id="deal">發牌(deal)</button>
+      <button id="hit">叫牌(hit)</button>
+      <button id="stand">停牌(stand)</button>
+      <b>賭注</b>  $: <input  type="text" />
+    </div>
+    <script src="./blackjack.js"></script>
+  </body>
+</html>
